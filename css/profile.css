@@ -1,0 +1,97 @@
+header {
+    background-color: purple;
+    height: 100px;
+    width:100%;
+}
+
+body {
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+textarea {
+    border-width: 1px;
+    border-radius: 5px;
+    border-color: lightgray;
+    resize: none;
+    -webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	width: 100%;
+}
+
+select:invalid {
+    color: gray;
+    font-family: ;
+    font-size: 14px;
+    font-weight:lighter;
+}
+
+select option {
+    color:rgb(94,0,141);
+}
+
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before, [class^="flaticon-"]:after, [class*=" flaticon-"]:after {
+    font-size: 40px;
+    font-size: 
+}
+
+.btn-primary{
+    width:100%;
+}
+
+.padding-0{
+    padding-top: 0px;
+    margin-top: 0px;
+}
+
+.padding-10{
+    padding-top: 10px;
+}
+
+.padding-15{
+    padding-top: 15px;
+}
+
+.padding-20{
+    padding-top: 20px;
+}
+
+.btn p{
+    font-size:10px;
+    text-align: center;
+}
+
+.btn-icon{
+    width:100%;
+}
+
+.btn i{
+    padding-right: 15px;
+}
+
+button i{
+    color:rgb(94,0,141);
+}
+
+i{
+    font-size:12px;
+    text-align: center;
+    color:gray;
+}
+
+.btn{
+    background-color: lightgray;
+}
+
+
+
+
+
+
+
+
+
+
+
+

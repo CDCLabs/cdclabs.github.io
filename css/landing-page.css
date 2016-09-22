@@ -1,0 +1,360 @@
+/* =============== Generic CSS ================*/
+@font-face {
+    font-family: 'mullernarrow';
+    src: url(../icons/font/MullerNarrow-Light.otf);
+}
+font-family: 'Slabo 27px', serif;
+font-family: 'Abel', sans-serif;
+
+body {
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.section-heading{
+    font-family: 'mullernarrow';
+    font-size: 64px;
+    color: #5E008D;
+    margin-top: 50px;
+}
+
+/* =============== Header ================*/
+
+header, footer {
+    width: 100%;
+    height: 100px;
+    background-color:#5E008D;
+}
+
+header .row, footer .row{
+    margin-top:20px;
+}
+
+header a,
+header a:hover,
+header a:focus {
+    font-size: 26px;
+    color: #fff;
+    text-decoration: none;
+}
+
+header .col-md-2, .col-sm-2 {
+    margin-top:20px;
+}
+
+header .img-responsive{
+    margin-left:50px;
+}
+
+/* =============== Section 1 ================*/
+
+.section-1
+        {
+            background-image:url(../images/New_with_mask.png);
+            background-attachment:fixed;
+            background-repeat: no-repeat;
+            background-position: 50% 50%;
+            background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            -webkit-background-size: cover;  
+            padding-bottom: 200px;
+        }
+
+.container-sec-1
+        {    
+            width:100%;
+        }
+
+.section-1-text
+        {
+            margin-top: 200px;
+            color: #fff;     
+        }
+
+.section-1-text .tag-line
+        {
+            font-size:68px;
+            font-family: mullernarrow;
+        }
+
+.tag-text
+        {
+            font-family: 'Helvetica';
+            font-size:26px;
+            line-height: 38px;
+            color: #fff;   
+        }
+
+a
+        {
+            margin-top:50px;
+        }
+
+.btn 
+        {
+            border-color:#5E008D;   
+        }
+
+.btn-primary,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary:visited
+        {
+            color:#fff;
+            background-color:#5E008D;
+            border-radius: 50px;
+            border-color: transparent;
+        }
+
+.btn-primary:hover
+        {
+            color:#fff;
+            background:transparent;
+            border-radius: 50px;
+            border-color:transparent;
+        }
+
+.btn-video,
+.btn-video:focus,
+.btn-video:active,
+.btn-video:visited
+        {
+            padding: 15px 30px;
+            font-family: 'Helvetica';
+            font-size: 24px;
+            font-weight: bold;    
+            border-radius: 100px;
+            transition: all 1s;
+            -webkit-transition: all 1s;
+            -moz-transition: all 1s;
+            -o-transition: all 1s;    
+        }
+
+.backdrop
+		{
+			position:fixed;
+			top:0px;
+			left:0px;
+			width:100%;
+			height:100%;
+			background:#000;
+			opacity: .0;
+			filter:alpha(opacity=0);
+			z-index:50;
+			display:none;
+		}
+ 
+ 
+		.box
+		{
+			position:fixed;
+			top:17%;
+			left:15%;
+			width:900px;
+			height:600px;
+			background:#ffffff;
+			z-index:51;
+			padding:10px;
+			-webkit-border-radius: 5px;
+			-moz-border-radius: 5px;
+			border-radius: 5px;
+			-moz-box-shadow:0px 0px 5px #444444;
+			-webkit-box-shadow:0px 0px 5px #444444;
+			box-shadow:0px 0px 5px #444444;
+			display:none;
+		}
+ 
+		.close
+		{
+			float:right;
+			margin-right:6px;
+			cursor:pointer;
+		}
+        
+
+/* =============== Section 2 ================*/
+
+.section-2{
+    padding-bottom: 50px;
+}
+
+.container-sec-2{
+    
+}
+
+.section-2-text{
+    font-family: 'Helvetica';
+    font-weight: lighter;
+    font-size: 21px;
+}
+
+/* =============== Section 3 ================*/
+
+.section-3{
+    background-image:url(../images/509864200.jpg);
+    background-attachment:; 
+    background-repeat: no-repeat;
+    background-position:;
+    background-size:cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover; 
+}
+
+.container-sec-3{
+    height:700px;
+}
+
+.container-sec-3 .col-btn{
+    margin-left: 0px;
+    padding-left: 0px;
+    margin-right: 0px;
+    padding-right: 0px;
+}
+
+.container-left, .container-right{
+    height: 560px;
+}
+
+.container-overlay{
+    background-color: rgba(31,31,31, 0.3);
+}
+
+.section-3-text{
+    font-family:'mullernarrow';
+    font-weight:100;
+    font-size: 36px;
+    color:#fff;
+    margin-top: 250px;
+}
+
+
+/* =============== Section 4 ================*/
+
+.section-4{
+    padding-bottom: 50px;
+}
+.section-4-text{
+    font-family: 'Helvetica';
+    font-size: 30px;
+    font-weight: 100;
+}
+
+.inner-container{
+    margin-top:50px;
+}
+
+.inner-container i{
+    font-size: 60px;
+}
+
+
+.inner-container .icon-points{
+    margin-top:20px;
+}
+
+.inner-container .icon-points p {
+    font-family: 'Helvetica';
+    font-size: 20px;
+}
+
+/* =============== Section 5 ================*/
+
+.section-5{
+    background-image:url(../images/508220007.jpg);
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
+    height: 800px
+}
+
+.panel{
+    background-color: rgba(0,0,0,0.75);
+    margin-top: 150px;
+    border-color: transparent;
+    border-radius: 0px;
+}
+
+.panel h3{
+    color:#fff;
+    font-family: 'mullernarrow';
+    font-size: 36px;
+    padding: 50px;
+}
+
+form{
+    color: #fff;   
+}
+
+form label{
+    font-family: 'Helvetica';
+    font-size: 16px;
+    color: lightgray;
+    padding-top: 20px;
+    padding-bottom:
+}
+
+.form-control{
+    background-color: transparent;
+    border-bottom-color: lightgray;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-radius: 0px;
+    color: #fff;
+    font-family: 'Helvetica';
+    font-size: 16px;
+        
+}
+
+form button{
+    
+    width: 100%;
+    height: 75px;
+    background-color: #5E008D;
+    font-family: 'Helvetica';
+    font-size: 20px;
+    font-weight: bold;
+    border: 0px;
+    margin-bottom: 75px;
+    margin-top: 75px;
+}
+
+/* ================ Footer ==================*/
+
+.scroll-top{
+    text-align: right;
+    margin-top: 20px
+}
+
+.scroll-top a {
+    background-color: transparent;
+    padding: 25px;
+}
+
+
+.scroll-top a i{
+    color: #fff;
+    font-size: 25px;
+}
+
+footer p{
+    font-size: 20px;
+    font-family: 'mullernarrow';
+    color: #fff;
+    margin-top: 32px;    
+}
+
+footer img{
+    width:100%;
+}
+
+.col-footer{
+    padding: 0px 5px;
+    margin: 0px;
+}

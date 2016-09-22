@@ -1,0 +1,169 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: "help-full";
+  src:url("fonts/help-full.eot");
+  src:url("fonts/help-full.eot?#iefix") format("embedded-opentype"),
+    url("fonts/help-full.woff") format("woff"),
+    url("fonts/help-full.ttf") format("truetype"),
+    url("fonts/help-full.svg#help-full") format("svg");
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+[data-icon]:before {
+  font-family: "help-full" !important;
+  content: attr(data-icon);
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="flaticon-"]:before,
+[class*=" flaticon-"]:before {
+  font-family: "help-full" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.flaticon-cc-discover:before {
+  content: "\61";
+}
+.flaticon-cc-mastercard:before {
+  content: "\62";
+}
+.flaticon-cc-paypal:before {
+  content: "\63";
+}
+.flaticon-cc-visa:before {
+  content: "\64";
+}
+.flaticon-cc-diners-club:before {
+  content: "\65";
+}
+.flaticon-cc-amex:before {
+  content: "\66";
+}
+.flaticon-car:before {
+  content: "\67";
+}
+.flaticon-eye:before {
+  content: "\68";
+}
+.flaticon-inr:before {
+  content: "\69";
+}
+.flaticon-map-marker:before {
+  content: "\6a";
+}
+.flaticon-paypal:before {
+  content: "\6b";
+}
+.flaticon-twitter:before {
+  content: "\6c";
+}
+.flaticon-usd:before {
+  content: "\6d";
+}
+.flaticon-youtube:before {
+  content: "\6e";
+}
+.flaticon-wrench:before {
+  content: "\6f";
+}
+.flaticon-handyman-1:before {
+  content: "\70";
+}
+.flaticon-email-mail-streamline:before {
+  content: "\71";
+}
+.flaticon-streamline-umbrella-weather:before {
+  content: "\72";
+}
+.flaticon-social-facebook:before {
+  content: "\73";
+}
+.flaticon-social-android:before {
+  content: "\74";
+}
+.flaticon-social-apple:before {
+  content: "\75";
+}
+.flaticon-social-google-plus:before {
+  content: "\76";
+}
+.flaticon-megaphone:before {
+  content: "\77";
+}
+.flaticon-archive:before {
+  content: "\78";
+}
+.flaticon-check-mark:before {
+  content: "\79";
+}
+.flaticon-training:before {
+  content: "\7a";
+}
+.flaticon-umbrella:before {
+  content: "\41";
+}
+.flaticon-view-member:before {
+  content: "\42";
+}
+.flaticon-car-rides:before {
+  content: "\43";
+}
+.flaticon-companionship:before {
+  content: "\44";
+}
+.flaticon-cooking:before {
+  content: "\45";
+}
+.flaticon-dishes:before {
+  content: "\46";
+}
+.flaticon-electronics:before {
+  content: "\47";
+}
+.flaticon-gardening:before {
+  content: "\48";
+}
+.flaticon-groceries:before {
+  content: "\49";
+}
+.flaticon-handyman:before {
+  content: "\4a";
+}
+.flaticon-heavy-lifting:before {
+  content: "\4b";
+}
+.flaticon-hobby-companion:before {
+  content: "\4c";
+}
+.flaticon-house-cleaning:before {
+  content: "\4d";
+}
+.flaticon-item-pickup:before {
+  content: "\4e";
+}
+.flaticon-laundry:before {
+  content: "\4f";
+}
+.flaticon-organize:before {
+  content: "\50";
+}
+.flaticon-research:before {
+  content: "\51";
+}
